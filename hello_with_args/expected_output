@@ -1,0 +1,23 @@
+[ROFS] Files: 4, size: 2088960 (0x001fe000).
+[ROFS] File #00: einit            - size:   613100 (0x00095aec)
+[ROFS] File #01: Hello            - size:   607664 (0x000945b0)
+[ROFS] File #02: Env              - size:   607332 (0x00094464)
+[ROFS] File #03: ksm.module       - size:   247320 (0x0003c618)
+[AU..] Starting core audit...
+[VLOG] Virtual logging subsystem initialized.
+[VMM ] Virtual Memory Manager service initialized.
+[IO  ] I/O subsystem successfully initialized.
+[FS  ] File System Manager successfully initialized.
+[XHCI] XHCIDBG service initialized.
+[CM  ] Connection Manager successfully initialized.
+[KSM ] Module: 'ksm.module' loaded.
+[KSM ] Audit log created.
+[KSM ] Module: 'ksm.module' initialized.
+[KSM ] Server: 'kl.core.Core' executed.
+[KSM ] Security system successfully initialized.
+[INIT] Starting 'Einit' ...
+[INIT] Starting system worker.
+Hello world! argc = 3
+ Argv = Hello
+ Argv = World
+
