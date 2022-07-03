@@ -7,7 +7,7 @@ include (platform/image)
 project_header_default ("STANDARD_GNU_11:YES" "STRICT_WARNINGS:NO")
 
 # Define the ENTITIES variable with a list of entities.
-set (ENTITIES Hello)
+set (ENTITIES Hello Env)
 set (SECURITY_PSL_FILE "src/security.psl")
 
 # KasperskyOS image for target hardware platform.
