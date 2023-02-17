@@ -11,6 +11,7 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fexceptions -Wno-deprecated-declaratio
 add_executable (Publisher "src/main.cpp" "src/publisher.cpp" )
 add_dependencies (Publisher publisher_edl_files)
 target_link_libraries(Publisher 
+		      ${OpenCV_LIBS}
                       ${mosquitto_CXX_LIB}
                       ${vfs_CLIENT_LIB}
 )

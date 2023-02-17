@@ -19,6 +19,14 @@ nk_build_edl_files (publisher_edl_files
 find_package (mosquitto REQUIRED COMPONENTS CXX_LIB)
 include_directories (${mosquitto_INCLUDE})
 
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+
+
+find_package( Protobuf REQUIRED )
+include_directories( ${Protobuf_INCLUDE} )
+
+
 # Add a package for working with the virtual file system.
 find_package (vfs REQUIRED)
 include_directories (${vfs_INCLUDE})
